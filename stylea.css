@@ -1,0 +1,88 @@
+*{
+    box-sizing: border border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(146, 124, 169, 0.133);
+    text-align: center;
+    padding: 25px;
+}
+.hero{
+    display: block;
+    clear: both;
+    background-color: rgba(237, 117, 31, 0.133);
+    text-align: center;
+    padding: 25px;
+    
+}
+.hero2{
+    display: block;
+    clear: both;
+    background-color: rgba(21, 44, 137, 0.133);
+    text-align: center;
+    padding: 25px;
+    
+}
+.hero3{
+    display: block;
+    clear: both;
+    background-color: rgba(38, 203, 140, 0.133);
+    text-align: center;
+    padding: 25px;
+    
+}
+.hero4{
+    display: block;
+    clear: both;
+    background-color: rgba(163, 186, 43, 0.133);
+    text-align: center;
+    padding: 25px;
+    
+}
+.navbar{
+    background-color: rgba(24, 18, 24, 0.679);
+    height: 45px;
+    
+}
+.navbar2{
+    background-color: rgba(24, 18, 24, 0.679);
+    height: 20px;
+    
+}
+aside{
+    width: 25%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    padding-left: 45px;
+}
+section{
+    width: 35%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+}
+article{
+    width: 30%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px; 
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: rgba(146, 124, 169, 0.133);
+    
+    padding: 25px;
+    
+}
+@media screen and (max-width:600px){
+    aside,section,article{
+        width: 100%;
+    }
+}
